@@ -1,0 +1,6 @@
+<form [formGroup]="editProfileForm">
+  <label>Display Name *</label>
+  <input type="text" formControlName="displayName">
+  <br>
+  <button type="submit" (click)="save()">Save</button>
+</form>
